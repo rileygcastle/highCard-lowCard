@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/highCard-lowCard/static/css/main.c9900954.css",
+    "main.js": "/highCard-lowCard/static/js/main.21d13390.js",
+    "static/media/cardDown.png": "/highCard-lowCard/static/media/cardDown.e0ffff8056debb2cd208.png",
+    "index.html": "/highCard-lowCard/index.html",
+    "main.c9900954.css.map": "/highCard-lowCard/static/css/main.c9900954.css.map",
+    "main.21d13390.js.map": "/highCard-lowCard/static/js/main.21d13390.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9900954.css",
+    "static/js/main.21d13390.js"
+  ]
+}
