@@ -1,0 +1,129 @@
+.card-game {
+  padding-bottom: 150px;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: rgb(182, 21, 21);
+  text-align: center;
+  text-shadow: 6px 4px 8px rgba(42, 42, 42, 0.613),
+    -6px -4px 10px rgba(253, 201, 195, 0.422);
+}
+
+.description {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 4px 4px 7px rgba(66, 66, 66, 0.467);
+}
+
+.how-to {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(182, 21, 21);
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.467);
+}
+
+.instruction-box {
+  border: 2px solid rgb(142, 142, 142);
+  border-radius: 4px;
+  background-color: rgba(6, 15, 109, 0.738);
+  padding: 30px;
+  font-size: 17px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.551);
+}
+.instructions {
+  text-align: center;
+  color: white;
+}
+.instructions-2 {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(182, 21, 21);
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.301);
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: rgba(6, 15, 109, 0.738);
+  color: white;
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 20px;
+  padding: 10px 30px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.613);
+}
+
+.start-btn {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.start-btn:hover {
+  cursor: pointer;
+  background-color: rgba(4, 7, 29, 0.638);
+}
+
+.card {
+  height: 200px;
+  width: 160px;
+}
+
+.card-container {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.h-l-btn {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.result {
+  height: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.scene {
+  display: inline-block;
+  width: 160px;
+  height: 200px;
+  perspective: 600px;
+}
+
+.flip-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 0.6s;
+}
+
+.flip-card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
